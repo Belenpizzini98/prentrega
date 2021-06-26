@@ -568,12 +568,12 @@ section {
   font-weight: 400;
   font-size: 20px;
   text-align: center; 
-  padding: 0 280px 0 280px;
   line-height : 24px;
+  
 }
 
 .values .box {
-  background-color: #37474f;
+  background-color: #1d4855;
   border-radius: 10px;
   padding: 25px 30px 30px 30px;
   box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
@@ -638,7 +638,6 @@ margin-bottom: 50px;
   font-weight: 400;
   font-size: 20px;
   text-align: center; 
-  padding: 0 240px 0 240px;
   line-height : 24px;
   margin-bottom: 50px;
 }
@@ -680,167 +679,6 @@ margin-bottom: 50px;
 .features .feature-icons:hover .img-fluid{
  transform: scale(1.10);
 }
-
-
-
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.services .service-box {
-background-image;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  height: 100%;
-  padding: 60px 30px;
-  text-align: center;
-  transition: 0.3s;
-  border-radius: 5px;
-}
-
-.services .service-box .icon {
-  font-size: 36px;
-  padding: 40px 20px;
-  border-radius: 4px;
-  position: relative;
-  margin-bottom: 25px;
-  display: inline-block;
-  line-height: 0;
-  transition: 0.3s;
-}
-
-.services .service-box h3 {
-  color: #444444;
-  font-weight: 700;
-}
-
-.services .service-box .read-more {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-  font-size: 16px;
-  padding: 8px 20px;
-}
-
-.services .service-box .read-more i {
-  line-height: 0;
-  margin-left: 5px;
-  font-size: 18px;
-}
-
-.services .service-box.blue {
-  border-bottom: 3px solid #2db6fa;
-}
-
-.services .service-box.blue .icon {
-  color: #2db6fa;
-  background: #dbf3fe;
-}
-
-.services .service-box.blue .read-more {
-  color: #2db6fa;
-}
-
-.services .service-box.blue:hover {
-  background: #2db6fa;
-}
-
-.services .service-box.orange {
-  border-bottom: 3px solid #f68c09;
-}
-
-.services .service-box.orange .icon {
-  color: #f68c09;
-  background: #fde3c4;
-}
-
-.services .service-box.orange .read-more {
-  color: #f68c09;
-}
-
-.services .service-box.orange:hover {
-  background: #f68c09;
-}
-
-.services .service-box.green {
-  border-bottom: 3px solid #08da4e;
-}
-
-.services .service-box.green .icon {
-  color: #08da4e;
-  background: #cffddf;
-}
-
-.services .service-box.green .read-more {
-  color: #08da4e;
-}
-
-.services .service-box.green:hover {
-  background: #08da4e;
-}
-
-.services .service-box.red {
-  border-bottom: 3px solid #e9222c;
-}
-
-.services .service-box.red .icon {
-  color: #e9222c;
-  background: #fef7f8;
-}
-
-.services .service-box.red .read-more {
-  color: #e9222c;
-}
-
-.services .service-box.red:hover {
-  background: #e9222c;
-}
-
-.services .service-box.purple {
-  border-bottom: 3px solid #b50edf;
-}
-
-.services .service-box.purple .icon {
-  color: #b50edf;
-  background: #f8e4fd;
-}
-
-.services .service-box.purple .read-more {
-  color: #b50edf;
-}
-
-.services .service-box.purple:hover {
-  background: #b50edf;
-}
-
-.services .service-box.pink {
-  border-bottom: 3px solid #f51f9c;
-}
-
-.services .service-box.pink .icon {
-  color: #f51f9c;
-  background: #feecf7;
-}
-
-.services .service-box.pink .read-more {
-  color: #f51f9c;
-}
-
-.services .service-box.pink:hover {
-  background: #f51f9c;
-}
-
-.services .service-box:hover h3, .services .service-box:hover p, .services .service-box:hover .read-more {
-  color: #fff;
-}
-
-.services .service-box:hover .icon {
-  background: #fff;
-}
-
-
-
-/*--------------------------------------------------------------
-
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
@@ -966,36 +804,6 @@ margin-bottom: 90px;
 }
 
 /*--------------------------------------------------------------
-# F.A.Q
---------------------------------------------------------------*/
-.faq .accordion-collapse {
-  border: 0;
-}
-
-.faq .accordion-button {
-  padding: 15px 15px 20px 0;
-  font-weight: 600;
-  border: 0;
-  font-size: 18px;
-  color: #444444;
-  text-align: left;
-}
-
-.faq .accordion-button:focus {
-  box-shadow: none;
-}
-
-.faq .accordion-button:not(.collapsed) {
-  background: none;
-  color: #4154f1;
-  border-bottom: 0;
-}
-
-.faq .accordion-body {
-  padding: 0 0 25px 0;
-  border: 0;
-}
-/*--------------------------------------------------------------
 # genero 225, 210, 11,
 --------------------------------------------------------------*/}
 
@@ -1061,7 +869,7 @@ margin-bottom: 90px;
 }
 
 .genero .genero-wrap .genero-info h4 {
-  font-size: 20px;
+  font-size: 150px;
   color: #ffff;
   font-weight: 700;
 }
@@ -1115,7 +923,7 @@ margin-bottom: 90px;
 }
 
 .portfolio .portfolio-wrap img {
-  transition: 1s;
+  transition: 0.3s;
   filter: grayscale(100%);  
 }
 
@@ -1164,9 +972,17 @@ margin-bottom: 90px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
-  color: #1d4855;
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
   font-weight: 700;
+}
+
+.portfolio .portfolio-wrap .portfolio-info h4:hover{
+    text-shadow: 0 0 0.3em #1d4855, 0 0 0.1em #1d4855;
+    letter-spacing: 8px;
+    text-align: center;
+    transition: 0.5s;    
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
@@ -1331,47 +1147,22 @@ margin-bottom: 90px;
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonial-item {
-  box-sizing: content-box;
-  padding: 30px;
+
+
+.testimonials .testimonial-item .testimonial-img {
+  width: 350px;
   margin: 40px 30px;
   box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1);
-  background: #fff;
-  min-height: 320px;
-  display: flex;
+  background: #ffb20d;
   flex-direction: column;
   text-align: center;
   transition: 0.3s;
+    justify-content: center;
+    display: block;
+    margin-left: auto; margin-right: auto; 
 }
 
-.testimonials .testimonial-item .stars {
-  margin-bottom: 15px;
-}
 
-.testimonials .testimonial-item .stars i {
-  color: #ffc107;
-  margin: 0 1px;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  margin: 0 auto;
-}
-
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #111;
-}
-
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0;
-}
 
 .testimonials .testimonial-item p {
   font-style: italic;
