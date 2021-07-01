@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections
 --------------------------------------------------------------*/
 section {
-  padding: 100px 0; /*-anterior 60px*/
+  padding: 60px 0; /*-anterior 60px*/
   overflow: hidden;
 }
 
@@ -168,7 +168,7 @@ section {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-.header {
+.header {  
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -190,9 +190,9 @@ section {
 }
 
 .header .logo span {
-  font-size: 30px;
+  font-size: 45px;
   letter-spacing: 1px;
-  color: #1d4855;
+  color: #fff;
   font-family: "Impact";
   margin-top: 3px;
 }
@@ -225,9 +225,9 @@ section {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Barlow";
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
-  color: #1d4855;
+  color: #fff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -239,7 +239,7 @@ section {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #ffff;
+  color: #1d4855;
 }
 
 .navbar .dropdown ul {
@@ -417,12 +417,12 @@ section {
 .hero h1 {
   font-family: "Impact";
   font-size: 75px;
-  color: #1d4855;
+  color: #ffd20b;
 }
 
 .hero h2 {
   font-family: "barlow"; 
-  color: #1d4855;
+  color: #ffd20b;
   margin: 10px 0 0 0;
   font-size: 26px;
 }
@@ -433,8 +433,8 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #ffd20b;
-  background: #1d4855;
+  color: #1d4855;
+  background: #ffd20b;
   box-shadow: 0px 5px 30px rgba(29, 72, 85, 0.6);
   
 }
@@ -446,11 +446,11 @@ section {
     
 }
 .hero .btn-get-started span:hover {
-  color: #ffd20b;
+  color: #1d4855;
   font-weight: 0;  
   letter-spacing: 2px;  
   background: #1d4855;
-  font-weight: 600;  
+  font-weight: 700;  
 }
       
     
@@ -472,7 +472,7 @@ section {
 
 @media (min-width: 1024px) {
   .hero {
-    background-attachment: fixed;
+    background-attachment: ;
   }
 }
 
@@ -511,9 +511,12 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+ background-image: url(../img/bg.png);
+}
 
 .about .content {
-  background-color: #324955;
+  background-color: #e3e2e2;
   padding: 40px;
   border-radius: 5px;
 }
@@ -522,7 +525,7 @@ section {
   font-family: "Barlow";
   font-size: 14px;
   font-weight: 400;
-  color: #fff;
+  color: #1d4855;
   text-transform: uppercase;
 }
 
@@ -530,19 +533,23 @@ section {
     font-family: "Barlow condensed";
   font-size: 40px;
   font-weight:700;
-  color: #ffd20b;
+  color: #1d4855;
 }
 
 .about p {
   margin: 15px 0 30px 0;
   line-height: 24px;
-  color: #f4f5f9;
+  color: #1d4855;
   font-weight: 500;    
 }
 
 /*--------------------------------------------------------------
 # Values
 --------------------------------------------------------------*/
+
+.values {
+  background-image: url(../img/bg.png);
+}
 .values h2 {
   font-family: "BARLOW";
   color: #1d4855;
@@ -563,10 +570,7 @@ section {
 }
 
 .values .box {
-  background-color: #1d4855;
   border-radius: 10px;
-  padding: 25px 30px 30px 30px;
-  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
   text-align: center;
   transition: 0.3s;
   height: 100%;
@@ -574,44 +578,46 @@ section {
 }
 
 .values .box img {
-  
-  padding: 10px 50px 15px ;
+  margin-bottom: -30px;
+  padding: 0 50px 0 ;
   transition: 0.5s;
-  transform: scale(1.1);
+  transform: scale(0.7);
 }
 
 .values .box h3 {
   Font-family: "Barlow Condensed";
   font-size: 30px;
   letter-spacing: 1px;
-  color: #ffd20b;
+  color: #1d4855;
   font-weight:700;
-  margin-bottom: 18px;
+  padding-top: -20px;  
 }
+
 .values .box p {
-    color: #f4f5f9;
+    color: #1d4855;
     font-family:"Barlow";
     font-size: 17px;
-    font-weight: 400;
-    padding: 0px 30px 0px 30px
+    font-weight: 500;
+    padding: 0 30px 0 30px
     
 }
 
 
-.values .box:hover {
+.valuues .box:hover {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 }
 
 .values .box:hover img {
-  transform: scale(1);
+  transform: scale(0.8);
 }
 
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
 .features {
-    
-margin-bottom: 50px;
+background-image: url(../img/bg.png);
+padding-bottom: 150px;    
+
 }
 
 .features .feature-icons h3 {
@@ -673,8 +679,9 @@ margin-bottom: 50px;
 # Pricing
 --------------------------------------------------------------*/
 .pricing{
- background: url(../img/precios-bg.png) top center no-repeat;
- padding-top: 10px;
+   
+ background-color: #ffd20b;
+ padding-top: 40px;
 }
 
 .pricing .section-header{
@@ -711,12 +718,30 @@ margin-bottom: 50px;
 }
 
 .pricing h3 {
-  font-family: "Barlow Condensed", sans-serif;  
+  font-family: "Barlow Condensed";  
   color: #ffd20b;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 35px;
   padding-top: 20PX;
+  letter-spacing: 1px;  
 } 
+
+.pricing .pricing-num {
+   font-family: "IMPACT" ;   
+    color:#fff;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.pricing .pr-per {
+    font-family: "barlow" ;   
+    color:#fff;
+    font-size: 15px;
+    margin-top: -10px;
+    justify-content: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
 
 .pricing p {
   font-family: "barlow";
@@ -734,7 +759,6 @@ margin-bottom: 50px;
   border-left-style: none;
   border-right: none;
 }
-
 
 .pricing img {
   padding: 15px;
@@ -782,10 +806,85 @@ margin-bottom: 50px;
   color: #fff;
 }
 
+
+
+
+
+.cta {
+  background:  url("../img/cta-bg.jpg") center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.cta h3 {
+  color: #364146;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cta p {
+  color: #576971;
+}
+
+.cta .cta-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  background: #009cea;
+}
+
+.cta .cta-btn:hover {
+  background: #008bd1;
+}
+
+@media (min-width: 1024px) {
+  .cta {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 769px) {
+  .cta .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+} 
 /*--------------------------------------------------------------
 # genero 225, 210, 11,
---------------------------------------------------------------*/}
+--------------------------------------------------------------*/
+.genero {
+    background-image: url(../img/bg.png);
+}
 
+.genero .section-header h2 {
+    font-family: "BARLOW";
+  color: #1d4855;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;    
+    
+    
+}
+
+.genero .section-header p {
+  font-family: "barlow";
+  color: #1d4855;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center; 
+  line-height : 24px;
+
+    
+}
 .genero #genero-flters li:last-child {
   margin-right: 0;
 }
@@ -796,7 +895,6 @@ margin-bottom: 50px;
   border-radius: 5px;
   overflow: hidden;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.75);
 }
 
 .genero .genero-wrap::before {
@@ -836,6 +934,7 @@ margin-bottom: 50px;
 
 
 .genero .genero-wrap .genero-info h4 {
+  font-family: "IMPACT";  
   font-size: 150px;
   color: #ffff;
   font-weight: 700;
@@ -866,6 +965,13 @@ margin-bottom: 50px;
   bottom: 15px;
   right: 15px;
 }
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Portfolio 225, 210, 11,
 --------------------------------------------------------------*/
@@ -891,7 +997,6 @@ margin-bottom: 50px;
 
 .portfolio .portfolio-wrap img {
   transition: 0.3s;
-  filter: grayscale(100%);  
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -1145,6 +1250,9 @@ action
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.testimonials {
+background-image: url(../img/bg.png);
+}
 
 .testimonials p {
     color: #1d4855;
@@ -1337,6 +1445,11 @@ action
 /*--------------------------------------------------------------
 # Recent Blog Posts
 --------------------------------------------------------------*/
+.recent-blog-posts {
+    
+  background-image: url(../img/bg.png);
+}
+
 .recent-blog-posts .post-box {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
@@ -1369,7 +1482,7 @@ action
 
 .recent-blog-posts .post-box .post-title {
   font-size: 24px;
-  color: #012970;
+  color: #1d4855;
   font-weight: 700;
   margin-bottom: 18px;
   position: relative;
@@ -1391,19 +1504,22 @@ action
 }
 
 .recent-blog-posts .post-box:hover .post-title {
-  color: #4154f1;
+  color: #1d4855;
 }
 
 .recent-blog-posts .post-box:hover .post-img img {
-  transform: rotate(6deg) scale(1.2);
+  transform:scale(1.2);
 }
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact {
+ background-image: url(../img/bg.png);
+}
 .contact .info-box {
   color: #1d4855;
-  background: #ffd20b ;
+  background: #fff ;
   padding: 30px;
 }
 
@@ -1429,7 +1545,7 @@ action
 }
 
 .contact .php-email-form {
-  background: #ffd20b;
+  background: #fff;
   padding: 30px;
   height: 100%;
 }
@@ -2052,7 +2168,7 @@ action
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #f6f9ff;
+  background-image: url(../img/bg.png);
   padding: 0 0 30px 0;
   font-size: 14px;
 }
@@ -2108,7 +2224,8 @@ action
 }
 
 .footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+  background-image: url(../img/bg.png);
+  background: white url(../img/footer -bg.png) no-repeat right top;
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
@@ -2141,6 +2258,7 @@ action
 }
 
 .footer .footer-top .footer-info p {
+    
   font-size: 17px;
   line-height: 22px;
   margin-bottom: 0;
